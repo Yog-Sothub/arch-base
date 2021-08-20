@@ -25,9 +25,3 @@ systemctl enable fstrim.timer
 systemctl enable ufw
 systemctl enable acpid
 
-useradd -mG wheel andreo
-echo andreo:password | chpasswd
-
-echo "andreo ALL=(ALL) ALL" >> /etc/sudoers.d/andreo
-
-
