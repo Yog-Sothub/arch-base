@@ -40,7 +40,7 @@ cd
 git clone https://github.com/Yog-Sothub/void.git
 
 cp ~/void/xinitrc .xinitrc
-cp ~/void/Xdefaults .Xdefaults
+cp ~/void/Xresources .Xresources
 cp ~/void/bash_profile .bash_profile
 mkdir ~/.local/bin/ 
 mv ~/void/local/bin/statusbar ~/.local/bin/
