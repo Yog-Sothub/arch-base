@@ -43,7 +43,7 @@ cp ~/void/xinitrc .xinitrc
 cp ~/void/Xdefaults .Xdefaults
 cp ~/void/bash_profile .bash_profile
 mkdir ~/.local/bin/ 
-sudo mv ~/void/local/bin/statusbar ~/.local/bin/
+mv ~/void/local/bin/statusbar ~/.local/bin/
 
 mv ~/void/config/dunst ~/.config
 mv ~/void/config/mpd ~/.config
