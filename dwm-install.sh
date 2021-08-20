@@ -55,6 +55,7 @@ mv ~/void/config/picom ~/.config
 mv ~/void/config/redshift ~/.config
 mv ~/void/config/x11 ~/.config
 mv ~/void/config/nvim ~/.config
+mv ~/void/config/fish ~/.config
 
 
 
