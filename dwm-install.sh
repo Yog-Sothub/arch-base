@@ -5,7 +5,7 @@ sudo hwclock --systohc
 
 sudo reflector -c Sweden -a 6 --protocol https --protocol http --sort rate --save /etc/pacman.d/mirrorlist
 
-sudo pacman -S xorg thunar firefox redshift lxappearance newsboat picom mpc mpv mpd ncmpcpp ffmpeg youtube-dl bat dunst arc-solid-gtk-theme papirus-icon-theme fish starship keepassxc htop neofetch ttf-dejavu gnu-free-fonts sxiv ranger mousepad ttf-liberation noto-fonts ttf-hack ttf-fira-code adobe-source-code-pro-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-mono ttf-joypixels
+sudo pacman -S xorg thunar firefox redshift lxappearance neovim newsboat picom mpc mpv mpd ncmpcpp ffmpeg youtube-dl bat dunst arc-solid-gtk-theme papirus-icon-theme fish starship keepassxc htop neofetch ttf-dejavu gnu-free-fonts sxiv ranger mousepad ttf-liberation noto-fonts ttf-hack ttf-fira-code adobe-source-code-pro-fonts noto-fonts-cjk noto-fonts-emoji ttf-fira-mono ttf-joypixels
 
 git clone https://aur.archlinux.org/paru.git
 cd paru
